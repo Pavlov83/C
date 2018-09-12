@@ -1,0 +1,33 @@
+To create a C program, you need a text file with extension .c which conatins source code.
+
+#include<stdio.h>    This is the include section which is in the begining of most of the C programs.In this example we are including stdio which gives us the ability to read from the console.
+
+The next thing that you will find in a source file are the functions.
+All the C code runs in functions.The most important function is main(),this is where your program starts.The main() is mandatory,without it the program execution will not start.
+
+int main()
+{
+	int decks;
+	puts("Enter a number of decks");
+	scanf("i", &decks);
+	if(decks < 1){
+	puts("Thats is not valid number of decks");
+	return 1;
+	}
+	printf("There are %i cards\n",(decks * 52));
+	return 0;
+}
+
+The body of the function is always surrounded by braces.
+The function name comes after the return type : int main()
+
+printf() function is used to display formatted output.It replaces format
+characters with the values of variables, like this:
+
+printf("%s says the count is %i","Ben", 21);
+
+
+
+
+
+
