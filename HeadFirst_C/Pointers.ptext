@@ -1,0 +1,30 @@
+/* Multiline comment*/
+//Single line comment
+
+#include<stdio.h>
+#include<string.h>
+
+#define MYNAME "Pavel Pavlov"
+
+int globalVar = 100; // global variable which si accessible from any function in the program.
+
+main(){
+	
+	char fisrtLetter = 0;
+
+	int age = 38;
+
+	long int superBigNum = -327670000;
+
+	float piValue = 3.14159;
+
+	double reallyBigPi = 3.141591415914159159;
+
+	printf("\n");
+
+	printf("This will print to screen");
+
+	printf("I am %d years old\n\n", age);
+
+}
+
