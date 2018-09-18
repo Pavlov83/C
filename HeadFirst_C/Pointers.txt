@@ -1,0 +1,19 @@
+                               Pointers
+
+Pointer is the exact address of piece of data stored in memory.
+Every time when you declare a variable,the computer creates space for it somewhere in the memory.If you declare a variable inside a function like main(), the computer will store it in a section of memory called STACK.If a variable is declared outside any function, it will be stored in the GLOBALS memory.The address of the variable tells you where to find the variable in memory.That"s why an address is also called a pointer, beacuse it points to the variable in memory.
+
+If you want to find out the memory address of the variable you can use the '&'' operator e.g.:
+
+	int main()
+	{
+		int x = 4;
+
+		return 0;
+	} 
+
+	printf("x is stored at %p\n", &x);
+
+	//this code will output something like
+
+	x is stored at 0x3E8FA0                              
