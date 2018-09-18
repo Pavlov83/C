@@ -26,5 +26,14 @@ main(){
 
 	printf("I am %d years old\n\n", age);
 
+	printf("Big Number %ld\n\n", superBigNum);
+
+	char myName[12] = "Pavel Pavlov";
+
+	printf("My name is %s\n\n", myName);
+
+	
+
+
 }
 
