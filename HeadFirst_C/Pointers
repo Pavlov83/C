@@ -1,0 +1,4 @@
+There are three things that we need to know in order to use pointers
+to read and write data.
+
+1.Get the address of a variable(using the '&' operator).
