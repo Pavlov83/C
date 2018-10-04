@@ -1,0 +1,9 @@
+Operators are actually functions that use symbolic name and are used to perform mathematical or logical functions
+
+Operators are predefined in C,just like they are in most other languages and most operators tend to be combined with infix style
+
+A logical operator(sometimes called a "Boolean Operator") is an operator that returns a Boolean result that is based on the Boolean result of one or two other expressions
+
+An arithmetic operator is a mathematical function that takes two operands and performs a calculation on them
+
+Other operators include assignment,relational(<,>,!=),bitwise(<<,>>,~)
