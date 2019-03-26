@@ -1,0 +1,12 @@
+After opening your console/terminal window, you can invoke the compiler program called by the simple command 
+
+cc mysource.c
+
+where cc is the C compiler and mysource.c is the name of the source file.(gcc is a very widespread compiler, if you are using it,just change the command of gcc.)The output of this command will be  a binary executable file called a.out,which you can rename(using mv) if you want.
+
+For more practical uses, you can output the binary executable to a different file,using 
+'-o...'(just as in CSound'-o' means "output to"):
+
+cc -o myprogr mysource.c
+
+On Windows machines your program filename will have the extension .exe On other systems no extensions are used.

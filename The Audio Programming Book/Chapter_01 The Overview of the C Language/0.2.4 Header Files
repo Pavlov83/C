@@ -1,0 +1,2 @@
+Header files(usually with extension .h) are files with definitions and parts of code which are included
+in (i.e. they will be copied to) the source files.The compiling process will use the code in these header files in the compilation process.

@@ -1,0 +1,4 @@
+Most People get somewhat confused when learning about the programming languages C and C++.Sometimes the two are confused into one;sometimes C is taken to be C++ and vice versa.They are effectively,two separate and different languages, so they should not be confused.In practice, they are very similar and share many elements, but we should be very careful not mistake one for another.As a rule of thumb,just think of C++ as a C with extra elements.While not the complete picture,this is often all you need to know.
+
+Sometimes C is thaught with some elements of C++ that simplify the coding.While this might be reasonable for someone who knows what is C and C++ in the code, for beginners this is very confusing.A second issue that C++ allows a more sophisticated programming approach,known as objected oriented programming,which is complex to tackle for the novice.In this  chapter we will only deal with C at first; at the end,we will introduce some features of C++.
+
