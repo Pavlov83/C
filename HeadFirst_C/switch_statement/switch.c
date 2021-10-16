@@ -1,7 +1,12 @@
 #include <stdio.h>
 
-int main
+int main()
 {
+
+    char card_name[3];
+    puts("Enter card name");
+    scanf("%2s", card_name);
+
     int val = 0;
     switch(card_name[0]){
         case'K':
@@ -14,6 +19,6 @@ int main
             break;
 
         default:
-           val=atoi(card_game);        
+           val = atoi(card_name);        
     }
 }
