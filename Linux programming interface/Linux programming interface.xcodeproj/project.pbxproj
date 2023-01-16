@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B4AB747293394000078C6D0 /* portsf.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B4AB746293394000078C6D0 /* portsf.c */; };
-		5B4D4F8228FF318A00A5248E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D4F8128FF318A00A5248E /* main.c */; };
+		5BB3248D29577653007E7A10 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3248C29577653007E7A10 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		5B4D4F7C28FF318A00A5248E /* CopyFiles */ = {
+		5BB3248729577653007E7A10 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5B4AB745293394000078C6D0 /* portsf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = portsf.h; path = "../../The Audio Programming Book/Chapter_02 Audio Programming Basics/portsf.h"; sourceTree = "<group>"; };
-		5B4AB746293394000078C6D0 /* portsf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = portsf.c; path = "../../The Audio Programming Book/Chapter_02 Audio Programming Basics/portsf.c"; sourceTree = "<group>"; };
-		5B4D4F7E28FF318A00A5248E /* chapter_1_getting_started_with_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chapter_1_getting_started_with_C; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B4D4F8128FF318A00A5248E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		5BB3248929577653007E7A10 /* Linux programming interface */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Linux programming interface"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB3248C29577653007E7A10 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5B4D4F7B28FF318A00A5248E /* Frameworks */ = {
+		5BB3248629577653007E7A10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5B4D4F7528FF318A00A5248E = {
+		5BB3248029577653007E7A10 = {
 			isa = PBXGroup;
 			children = (
-				5B4AB745293394000078C6D0 /* portsf.h */,
-				5B4AB746293394000078C6D0 /* portsf.c */,
-				5B4D4F8028FF318A00A5248E /* chapter_1_getting_started_with_C */,
-				5B4D4F7F28FF318A00A5248E /* Products */,
+				5BB3248B29577653007E7A10 /* Linux programming interface */,
+				5BB3248A29577653007E7A10 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5B4D4F7F28FF318A00A5248E /* Products */ = {
+		5BB3248A29577653007E7A10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B4D4F7E28FF318A00A5248E /* chapter_1_getting_started_with_C */,
+				5BB3248929577653007E7A10 /* Linux programming interface */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B4D4F8028FF318A00A5248E /* chapter_1_getting_started_with_C */ = {
+		5BB3248B29577653007E7A10 /* Linux programming interface */ = {
 			isa = PBXGroup;
 			children = (
-				5B4D4F8128FF318A00A5248E /* main.c */,
+				5BB3248C29577653007E7A10 /* main.c */,
 			);
-			path = chapter_1_getting_started_with_C;
+			path = "Linux programming interface";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B4D4F7D28FF318A00A5248E /* chapter_1_getting_started_with_C */ = {
+		5BB3248829577653007E7A10 /* Linux programming interface */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B4D4F8528FF318A00A5248E /* Build configuration list for PBXNativeTarget "chapter_1_getting_started_with_C" */;
+			buildConfigurationList = 5BB3249029577653007E7A10 /* Build configuration list for PBXNativeTarget "Linux programming interface" */;
 			buildPhases = (
-				5B4D4F7A28FF318A00A5248E /* Sources */,
-				5B4D4F7B28FF318A00A5248E /* Frameworks */,
-				5B4D4F7C28FF318A00A5248E /* CopyFiles */,
+				5BB3248529577653007E7A10 /* Sources */,
+				5BB3248629577653007E7A10 /* Frameworks */,
+				5BB3248729577653007E7A10 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = chapter_1_getting_started_with_C;
-			productName = chapter_1_getting_started_with_C;
-			productReference = 5B4D4F7E28FF318A00A5248E /* chapter_1_getting_started_with_C */;
+			name = "Linux programming interface";
+			productName = "Linux programming interface";
+			productReference = 5BB3248929577653007E7A10 /* Linux programming interface */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5B4D4F7628FF318A00A5248E /* Project object */ = {
+		5BB3248129577653007E7A10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Pavel Pavlov";
 				TargetAttributes = {
-					5B4D4F7D28FF318A00A5248E = {
+					5BB3248829577653007E7A10 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 5B4D4F7928FF318A00A5248E /* Build configuration list for PBXProject "chapter_1_getting_started_with_C" */;
+			buildConfigurationList = 5BB3248429577653007E7A10 /* Build configuration list for PBXProject "Linux programming interface" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 5B4D4F7528FF318A00A5248E;
-			productRefGroup = 5B4D4F7F28FF318A00A5248E /* Products */;
+			mainGroup = 5BB3248029577653007E7A10;
+			productRefGroup = 5BB3248A29577653007E7A10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B4D4F7D28FF318A00A5248E /* chapter_1_getting_started_with_C */,
+				5BB3248829577653007E7A10 /* Linux programming interface */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5B4D4F7A28FF318A00A5248E /* Sources */ = {
+		5BB3248529577653007E7A10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4D4F8228FF318A00A5248E /* main.c in Sources */,
-				5B4AB747293394000078C6D0 /* portsf.c in Sources */,
+				5BB3248D29577653007E7A10 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5B4D4F8328FF318A00A5248E /* Debug */ = {
+		5BB3248E29577653007E7A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		5B4D4F8428FF318A00A5248E /* Release */ = {
+		5BB3248F29577653007E7A10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +235,7 @@
 			};
 			name = Release;
 		};
-		5B4D4F8628FF318A00A5248E /* Debug */ = {
+		5BB3249129577653007E7A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		5B4D4F8728FF318A00A5248E /* Release */ = {
+		5BB3249229577653007E7A10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B4D4F7928FF318A00A5248E /* Build configuration list for PBXProject "chapter_1_getting_started_with_C" */ = {
+		5BB3248429577653007E7A10 /* Build configuration list for PBXProject "Linux programming interface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B4D4F8328FF318A00A5248E /* Debug */,
-				5B4D4F8428FF318A00A5248E /* Release */,
+				5BB3248E29577653007E7A10 /* Debug */,
+				5BB3248F29577653007E7A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B4D4F8528FF318A00A5248E /* Build configuration list for PBXNativeTarget "chapter_1_getting_started_with_C" */ = {
+		5BB3249029577653007E7A10 /* Build configuration list for PBXNativeTarget "Linux programming interface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B4D4F8628FF318A00A5248E /* Debug */,
-				5B4D4F8728FF318A00A5248E /* Release */,
+				5BB3249129577653007E7A10 /* Debug */,
+				5BB3249229577653007E7A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5B4D4F7628FF318A00A5248E /* Project object */;
+	rootObject = 5BB3248129577653007E7A10 /* Project object */;
 }
